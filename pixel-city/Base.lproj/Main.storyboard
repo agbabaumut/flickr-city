@@ -46,7 +46,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5b-ks-7nl">
-                                <rect key="frame" x="304" y="832" width="91" height="50"/>
+                                <rect key="frame" x="304" y="831" width="91" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="gsh-ld-6tv"/>
                                     <constraint firstAttribute="width" constant="91" id="yDL-Pu-opg"/>
@@ -68,7 +68,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Um-Es-u3v" secondAttribute="trailing" id="Pl3-GQ-hWm"/>
                             <constraint firstItem="nl3-g8-q1a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SOY-xz-O1F"/>
                             <constraint firstAttribute="trailing" secondItem="nl3-g8-q1a" secondAttribute="trailing" id="TX3-U0-qwC"/>
-                            <constraint firstItem="K5b-ks-7nl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="20" id="ntm-aX-ua0"/>
+                            <constraint firstItem="K5b-ks-7nl" firstAttribute="bottom" secondItem="nl3-g8-q1a" secondAttribute="top" constant="-14" id="ntm-aX-ua0"/>
                             <constraint firstItem="ZxS-BX-Ie1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rAe-KT-kS9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K5b-ks-7nl" secondAttribute="trailing" constant="19" id="uge-E5-f9g"/>
                             <constraint firstAttribute="bottom" secondItem="nl3-g8-q1a" secondAttribute="bottom" id="v8s-OC-XhK"/>
@@ -84,6 +84,55 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="228.98550724637684" y="-103.125"/>
+        </scene>
+        <!--PopVC-->
+        <scene sceneID="gWM-5o-yqD">
+            <objects>
+                <viewController storyboardIdentifier="PopVC" id="aDN-r4-GST" customClass="PopVC" customModule="pixel_city" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fPe-ir-T6Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l9M-0y-kbe">
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K8L-ju-P7w">
+                                <rect key="frame" x="112.5" y="806" width="189" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double tap to dismiss" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPu-EO-DZb">
+                                        <rect key="frame" x="11.5" y="8.5" width="166" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="GPu-dP-JG2"/>
+                                    <constraint firstItem="lPu-EO-DZb" firstAttribute="centerY" secondItem="K8L-ju-P7w" secondAttribute="centerY" id="PWZ-I0-IoO"/>
+                                    <constraint firstAttribute="width" constant="189" id="QY9-jM-DKa"/>
+                                    <constraint firstItem="lPu-EO-DZb" firstAttribute="centerX" secondItem="K8L-ju-P7w" secondAttribute="centerX" id="SAI-Tc-D1B"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4oU-oC-mrr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="l9M-0y-kbe" firstAttribute="leading" secondItem="4oU-oC-mrr" secondAttribute="leading" id="Pt8-ei-qVz"/>
+                            <constraint firstItem="4oU-oC-mrr" firstAttribute="bottom" secondItem="l9M-0y-kbe" secondAttribute="bottom" id="RQT-42-Ke4"/>
+                            <constraint firstItem="l9M-0y-kbe" firstAttribute="top" secondItem="4oU-oC-mrr" secondAttribute="top" id="biM-cl-1r7"/>
+                            <constraint firstItem="K8L-ju-P7w" firstAttribute="centerX" secondItem="fPe-ir-T6Z" secondAttribute="centerX" id="i6P-ou-of5"/>
+                            <constraint firstItem="4oU-oC-mrr" firstAttribute="trailing" secondItem="l9M-0y-kbe" secondAttribute="trailing" id="nLm-JB-HaX"/>
+                            <constraint firstItem="4oU-oC-mrr" firstAttribute="bottom" secondItem="K8L-ju-P7w" secondAttribute="bottom" constant="16" id="o9c-1S-JC8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="popImageView" destination="l9M-0y-kbe" id="Bn4-pU-0jA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DPe-0K-6tK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="-103.125"/>
         </scene>
     </scenes>
     <resources>
