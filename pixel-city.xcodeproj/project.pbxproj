@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F1C9F532F2F37DE318C5923 /* Pods_pixel_city.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E0FB5F780CC188A2322D17 /* Pods_pixel_city.framework */; };
+		C72B21D329CA04D800D72DFB /* Pods_pixel_city.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E0FB5F780CC188A2322D17 /* Pods_pixel_city.framework */; };
 		C730EFC429C9F6E700DBF723 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C730EFC329C9F6E700DBF723 /* PopVC.swift */; };
 		C7419E0029C229F3000FA6B2 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7419DFF29C229F3000FA6B2 /* DroppablePin.swift */; };
 		C7D20FF129C5C6BD00F5DE5F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D20FF029C5C6BD00F5DE5F /* PhotoCell.swift */; };
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F1C9F532F2F37DE318C5923 /* Pods_pixel_city.framework in Frameworks */,
+				C72B21D329CA04D800D72DFB /* Pods_pixel_city.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +181,7 @@
 				};
 			};
 			buildConfigurationList = C7E1EC7D29C1D39400BDE031 /* Build configuration list for PBXProject "pixel-city" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
