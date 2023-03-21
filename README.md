@@ -1,3 +1,7 @@
+
+
+https://user-images.githubusercontent.com/41001341/226726468-d1ddbd5b-bb24-4422-9e29-368179e57e4a.mp4
+
 # Flickr-city
 
 This is an iOS app that allows users to tap on any location on the map and view images taken at that location using the Flickr API. The app uses the user's current location as a starting point and then displays images taken at nearby locations within a specified radius.
