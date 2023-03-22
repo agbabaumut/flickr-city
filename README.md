@@ -40,10 +40,6 @@ This app uses the following dependencies:
 
 - Alamofire
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more information.
-
 ## Credits
 
 This app was created by Umut Ağbaba. Special thanks to the creators of the following libraries:
