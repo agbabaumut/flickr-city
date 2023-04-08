@@ -42,11 +42,6 @@ This app uses the following dependencies:
 
 ## Credits
 
-This app was created by Umut Ağbaba. Special thanks to the creators of the following libraries:
-
-- Alamofire
+This app was created by Umut Ağbaba.
 
 
-## Contributing
-
-To contribute to this project, please submit a pull request with your changes. All contributions are welcome!
